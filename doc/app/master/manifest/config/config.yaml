@@ -1,0 +1,12 @@
+server:
+  address:     ":8000"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+logger:
+  level : "all"
+  stdout: true
+etcd:
+  address : ["8.219.177.71:2379"]
+
+
